@@ -1,9 +1,14 @@
 import React from "react";
 
+import PPS from "./Components/PPS"
+
 const App = () => {
   return (
     <div>
-      <h1>Hii, Hello World</h1>
+      <PPS 
+      name="Waliston"
+      lastName={"Santos"}
+      />
     </div>
   )
 }
